@@ -1130,18 +1130,22 @@ div{
     align-items: center;
 }
 
-presentation {
+img{
+    height: 320px;
+}
+
+.presentation {
     margin: 0;
-    padding: 0;
+    padding-left: 40px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh; /* Assure que le conteneur occupe toute la hauteur de la fenêtre */
-    background-color: #f2f2f2; /* Couleur de fond de la page */
+    height: 400px; /* Assure que le conteneur occupe toute la hauteur de la fenêtre */
   }
 
   .bloc {
     width: 100px;
     height: 100px;
-    background-color: #3498db; /* Couleur de fond du bloc */
+
   }
