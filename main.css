@@ -1114,10 +1114,11 @@ div{
     padding-left: 40px;
 }
 
-#hrBlue{
+.hrBlue{
     margin-left: 40px;
     margin-right: 50px;
     width: 100px;
+    color: #149ddd;
 }
 
 
@@ -1134,10 +1135,9 @@ img{
     justify-content: space-between;
     align-items: center;
     height: 400px; /* Assure que le conteneur occupe toute la hauteur de la fenêtre */
-  }
+}
 
-  .bloc {
+.bloc {
     width: 500px;
     height: 100px;
-
-  }
+}
