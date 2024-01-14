@@ -1125,24 +1125,28 @@ div{
 
 img{
     height: 320px;
+    left: 0;
 }
 
 .presentation {
     margin: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
+    padding-left: 0;
+    display: inline-flex;
     justify-content: space-between;
-    align-items: center;
-    height: 400px; /* Assure que le conteneur occupe toute la hauteur de la fenêtre */
+    height: 400px;
+}
+
+.presentationText {
+  max-height: 100%; 
+  max-width: 100%; 
+  align-self: center; 
+  margin-right: 30px;
 }
 
 .bloc {
-    width: 500px;
-    height: 100px;
-    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    display: contents;
 }
 
 footer{
