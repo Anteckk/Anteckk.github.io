@@ -1142,6 +1142,7 @@ img{
 .bloc {
     width: 500px;
     height: 100px;
+    display: inline-block;
 }
 
 footer{
