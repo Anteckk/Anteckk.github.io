@@ -1122,3 +1122,18 @@ div{
     margin-right: 50px;
     width: 100px;
 }
+
+.divPresLeft,
+.divPresRight{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+.divPresRight{
+    right: 0;
+}
+
+.divPresLeft{
+    left: 0;
+}
