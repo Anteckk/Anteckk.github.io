@@ -149,6 +149,7 @@ body {
   
     #main {
       margin-left: 0;
+      
     }
   
     .container,
@@ -1141,4 +1142,10 @@ img{
 .bloc {
     width: 500px;
     height: 100px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
 }
