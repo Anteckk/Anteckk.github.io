@@ -128,12 +128,12 @@ body {
   }
   
   body {
-    margin-left: 100px;
-    margin-right: 100px;
-    background-image: url(img/elements_fond.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    background-image: url(img/elements_fond.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
   }
   
   .container,
