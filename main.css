@@ -1125,15 +1125,7 @@ div{
     width: 100px;
     height: 100px;
     margin: 0 20px;
-    display: flex;
+    display: bloc;
     justify-content: center;
     align-items: center;
-}
-
-.divPresRight{
-    right: 0;
-}
-
-.divPresLeft{
-    left: 0;
 }
