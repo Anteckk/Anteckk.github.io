@@ -1129,3 +1129,19 @@ div{
     justify-content: center;
     align-items: center;
 }
+
+presentation {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Assure que le conteneur occupe toute la hauteur de la fenêtre */
+    background-color: #f2f2f2; /* Couleur de fond de la page */
+  }
+
+  .bloc {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Couleur de fond du bloc */
+  }
