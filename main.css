@@ -1120,15 +1120,6 @@ div{
     width: 100px;
 }
 
-.divPresLeft,
-.divPresRight{
-    width: 100px;
-    height: 100px;
-    margin: 0 20px;
-    display: bloc;
-    justify-content: center;
-    align-items: center;
-}
 
 img{
     height: 320px;
@@ -1137,6 +1128,7 @@ img{
 .presentation {
     margin: 0;
     padding-left: 40px;
+    padding-right: 40px;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -1145,7 +1137,7 @@ img{
   }
 
   .bloc {
-    width: 100px;
+    width: 500px;
     height: 100px;
 
   }
