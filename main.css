@@ -1124,7 +1124,10 @@ div{
 .divPresRight{
     width: 100px;
     height: 100px;
-    position: fixed;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .divPresRight{
