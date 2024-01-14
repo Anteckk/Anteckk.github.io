@@ -127,6 +127,7 @@ text-decoration: none;
 #main {
 margin-left: 300px;
 background-image: url(img/elements_fond.png);
+background-attachment: fixed;
 }
 
 .container,
